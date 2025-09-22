@@ -1,0 +1,22 @@
+﻿Build started 22/09/2025 17:08:05.
+     1>Project "C:\Users\conso\OneDrive\Documentos\GitHub\FPS-Counter\src\RouLetteVshMenu.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         Hooks.cpp
+         ps3ppusnc.exe -DLAUNCHER_DEBUG -D__PS3__ -DLIBNAME=cellPrx_RouLetteVshMenu -DSTUBNAME=cellPrx_RouLetteVshMenu_stub -o C:\Users\conso\OneDrive\Documentos\GitHub\FPS-Counter\bin-int\Debug-PS3\RouLetteVshMenu\Hooks.o -c -Xdepmode=1 -MD -Xmserrors -I"C:\Program Files (x86)\SN Systems\PS3\ppu\include\sn" -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:\Users\conso\OneDrive\Documentos\GitHub\FPS-Counter\vendor\VirtualShell\include" -I"C:\Users\conso\OneDrive\Documentos\GitHub\FPS-Counter\vendor\super_simple_yaml" -I. -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\sn\ppu\include" -g -O0 -Xnotocrestore=1 -Xstd=cpp11 -Xc-=rtti C:\Users\conso\OneDrive\Documentos\GitHub\FPS-Counter\src\Core\Hooks.cpp
+     1>C:\Users\conso\OneDrive\Documentos\GitHub\FPS-Counter\src\Core\Hooks.cpp(26,31): error 20: identifier "syscall_8" is undefined
+         
+     1>C:\Users\conso\OneDrive\Documentos\GitHub\FPS-Counter\src\Core\Hooks.cpp(28,109): error 1624: too few arguments in function call to "sys_sm_get_fan_policy"
+         
+     1>C:\Users\conso\OneDrive\Documentos\GitHub\FPS-Counter\src\Core\Hooks.cpp(52,12): error 136: class "Overlay" has no member "DrawString"
+         
+     1>C:\Users\conso\OneDrive\Documentos\GitHub\FPS-Counter\src\Core\Hooks.cpp(52,32): error 136: class "Config" has no member "m_PosX"
+         
+     1>C:\Users\conso\OneDrive\Documentos\GitHub\FPS-Counter\src\Core\Hooks.cpp(52,49): error 136: class "Config" has no member "m_PosY"
+         
+     1>C:\Users\conso\OneDrive\Documentos\GitHub\FPS-Counter\src\Core\Hooks.cpp(60,23): error 136: class "Config" has no member "m_ShowFps"
+         
+     1>Done Building Project "C:\Users\conso\OneDrive\Documentos\GitHub\FPS-Counter\src\RouLetteVshMenu.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.75
